@@ -8,12 +8,21 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(255,255,255);
-  strokeWeight(3);
+  strokeWeight(1);
+  
+// draw a line from (100, 50) to (300, 175);
+strokeWeight(4);
+line(0, 343, 500, 343);
 
+strokeWeight(1);
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
+  // draw a rounded rectangle at (150, 300) with width 100 and height 50
+rect(70, 180, 90, 10, 5);
+rect(240, 180, 90, 10, 5);
+
   
 
 }
